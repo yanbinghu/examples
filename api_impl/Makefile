@@ -11,4 +11,4 @@ main:main.cc
 .PHONY : clean all
 all:libapi libuse_api main
 clean:
-	rm -f libapi.a libuse_api.a main
+	rm -f *.o libapi.a libuse_api.a main
